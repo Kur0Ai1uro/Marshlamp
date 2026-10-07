@@ -36,7 +36,6 @@ public final class MarshlampBlocks {
             .instabreak()
             .noCollision()
             .sound(SoundType.CROP)
-            .offsetType(BlockBehaviour.OffsetType.XZ)
             .noOcclusion());
 
     public static final DeferredBlock<MarshGlowBlock> MARSH_GLOW = BLOCKS.registerBlock("marsh_glow", MarshGlowBlock::new, props -> props

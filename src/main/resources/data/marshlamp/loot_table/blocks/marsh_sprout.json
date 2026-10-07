@@ -9,6 +9,24 @@
           "name": "marshlamp:marsh_sprout_seeds"
         }
       ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "marshlamp:marsh_wheat"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "marshlamp:marsh_sprout",
+          "properties": {
+            "age": "5"
+          }
+        }
+      ]
     }
   ]
 }
