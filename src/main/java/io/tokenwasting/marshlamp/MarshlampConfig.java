@@ -7,7 +7,11 @@ public final class MarshlampConfig {
 
     public static final ModConfigSpec.IntValue GROWTH_RADIUS = BUILDER
             .comment("沼灯催熟作物时搜索的水平半径。")
-            .defineInRange("growthRadius", 4, 1, 8);
+            .defineInRange("growthRadius", 3, 1, 8);
+
+    public static final ModConfigSpec.IntValue GROWTH_INTERVAL_SECONDS = BUILDER
+            .comment("沼灯两次催熟之间的秒数。")
+            .defineInRange("growthIntervalSeconds", 10, 1, 120);
 
     public static final ModConfigSpec.IntValue BRIGHTNESS_PER_GROWTH = BUILDER
             .comment("每成功催熟一次消耗的亮度。")
@@ -16,10 +20,6 @@ public final class MarshlampConfig {
     public static final ModConfigSpec.IntValue BERRY_RESTORE = BUILDER
             .comment("一颗荧光浆果回复的亮度。")
             .defineInRange("berryRestore", 25, 1, 100);
-
-    public static final ModConfigSpec.IntValue SHRINE_RARITY = BUILDER
-            .comment("灯祠稀有度。沼泽区块每次尝试有 1/该值 的概率继续生成，并且仍须靠近水。")
-            .defineInRange("shrineRarity", 28, 1, 200);
 
     public static final ModConfigSpec.IntValue WISP_REGROW_SECONDS = BUILDER
             .comment("摘下沼灯芯花后，花朵还在且区块加载时，重新亮起需要的秒数。")
@@ -35,7 +35,7 @@ public final class MarshlampConfig {
     }
 
     public static int growthRadius() {
-        return value(GROWTH_RADIUS, 4);
+        return value(GROWTH_RADIUS, 3);
     }
 
     public static int brightnessPerGrowth() {
@@ -46,16 +46,16 @@ public final class MarshlampConfig {
         return value(BERRY_RESTORE, 25);
     }
 
-    public static int shrineRarity() {
-        return value(SHRINE_RARITY, 28);
-    }
-
     public static int wispRegrowTicks() {
         return wispRegrowSeconds() * 20;
     }
 
     public static int wispRegrowSeconds() {
         return value(WISP_REGROW_SECONDS, 300);
+    }
+
+    public static int growthIntervalTicks() {
+        return value(GROWTH_INTERVAL_SECONDS, 10) * 20;
     }
 
     public static int brightnessDrainTicks() {

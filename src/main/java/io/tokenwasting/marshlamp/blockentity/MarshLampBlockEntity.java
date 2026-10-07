@@ -90,7 +90,7 @@ public class MarshLampBlockEntity extends BlockEntity {
             }
         }
         lamp.ticks++;
-        if (lamp.ticks < 100 || lamp.brightness <= 0) {
+        if (lamp.ticks < MarshlampConfig.growthIntervalTicks() || lamp.brightness <= 0) {
             return;
         }
         lamp.ticks = 0;

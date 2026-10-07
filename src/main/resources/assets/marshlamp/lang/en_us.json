@@ -38,9 +38,9 @@
   "advancements.marshlamp.charge_lantern.description": "Charge a marsh lantern from a marsh lamp.",
   "marshlamp.configuration.title": "Marshlamp Config",
   "marshlamp.configuration.growthRadius": "Growth Radius",
+  "marshlamp.configuration.growthIntervalSeconds": "Seconds Between Growth Pulses",
   "marshlamp.configuration.brightnessPerGrowth": "Brightness Used per Growth",
   "marshlamp.configuration.berryRestore": "Glow Berry Restore",
-  "marshlamp.configuration.shrineRarity": "Shrine Rarity",
   "marshlamp.configuration.wispRegrowSeconds": "Seconds for a marsh wisp flower to glow again",
   "marshlamp.configuration.brightnessDrainSeconds": "Seconds per brightness point drained by a marsh lamp"
 }

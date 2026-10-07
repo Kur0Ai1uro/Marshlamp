@@ -38,9 +38,9 @@
   "advancements.marshlamp.charge_lantern.description": "给手提沼灯充上亮度。",
   "marshlamp.configuration.title": "沼灯配置",
   "marshlamp.configuration.growthRadius": "催熟半径",
+  "marshlamp.configuration.growthIntervalSeconds": "两次催熟的间隔秒数",
   "marshlamp.configuration.brightnessPerGrowth": "每次催熟消耗的亮度",
   "marshlamp.configuration.berryRestore": "荧光浆果回复的亮度",
-  "marshlamp.configuration.shrineRarity": "灯祠稀有度",
   "marshlamp.configuration.wispRegrowSeconds": "沼灯芯花重新亮起的秒数",
   "marshlamp.configuration.brightnessDrainSeconds": "沼灯每掉 1 点亮度的秒数"
 }
