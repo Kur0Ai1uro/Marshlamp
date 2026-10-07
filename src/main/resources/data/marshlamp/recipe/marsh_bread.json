@@ -5,7 +5,7 @@
     "WWW"
   ],
   "key": {
-    "W": { "item": "marshlamp:marsh_wheat" }
+    "W": "marshlamp:marsh_wheat"
   },
   "result": {
     "id": "marshlamp:marsh_bread",

@@ -7,9 +7,9 @@
     "S"
   ],
   "key": {
-    "G": { "item": "marshlamp:marsh_ingot" },
-    "C": { "item": "minecraft:copper_ingot" },
-    "S": { "item": "minecraft:stick" }
+    "G": "marshlamp:marsh_ingot",
+    "C": "minecraft:copper_ingot",
+    "S": "minecraft:stick"
   },
   "result": {
     "id": "marshlamp:marsh_lantern",

@@ -6,7 +6,7 @@
     "SS"
   ],
   "key": {
-    "S": { "item": "marshlamp:marsh_shard" }
+    "S": "marshlamp:marsh_shard"
   },
   "result": {
     "id": "marshlamp:marsh_ingot",
