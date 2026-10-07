@@ -1,0 +1,6 @@
+{
+  "type": "marshlamp:marsh_shrine",
+  "biomes": "#marshlamp:marsh",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

@@ -1,6 +1,0 @@
-{
-  "type": "neoforge:add_features",
-  "biomes": "#marshlamp:marsh",
-  "features": "marshlamp:marsh_shrine",
-  "step": "surface_structures"
-}
