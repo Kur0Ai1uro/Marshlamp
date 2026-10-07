@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "blooming=false": { "model": "marshlamp:block/marsh_wisp" },
+    "blooming=true": { "model": "marshlamp:block/marsh_wisp_blooming" }
+  }
+}

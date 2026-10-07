@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WWW"
+  ],
+  "key": {
+    "W": { "item": "marshlamp:marsh_wheat" }
+  },
+  "result": {
+    "id": "marshlamp:marsh_bread",
+    "count": 1
+  }
+}

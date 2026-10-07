@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": { "model": "marshlamp:block/marsh_sprout_0" },
+    "age=1": { "model": "marshlamp:block/marsh_sprout_1" },
+    "age=2": { "model": "marshlamp:block/marsh_sprout_2" },
+    "age=3": { "model": "marshlamp:block/marsh_sprout_3" },
+    "age=4": { "model": "marshlamp:block/marsh_sprout_4" },
+    "age=5": { "model": "marshlamp:block/marsh_sprout_5" }
+  }
+}

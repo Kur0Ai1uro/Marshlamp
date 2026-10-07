@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": { "item": "marshlamp:marsh_shard" }
+  },
+  "result": {
+    "id": "marshlamp:marsh_ingot",
+    "count": 1
+  }
+}

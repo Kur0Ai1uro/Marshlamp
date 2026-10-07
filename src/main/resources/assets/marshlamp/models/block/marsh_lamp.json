@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "marshlamp:block/marsh_lamp",
+    "bottom": "marshlamp:block/marsh_lamp",
+    "top": "marshlamp:block/marsh_lamp_topper"
+  }
+}

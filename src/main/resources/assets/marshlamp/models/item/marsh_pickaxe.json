@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "marshlamp:item/marsh_pickaxe"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "level=0": { "model": "marshlamp:block/marsh_lamp" },
+    "level=1": { "model": "marshlamp:block/marsh_lamp" },
+    "level=2": { "model": "marshlamp:block/marsh_lamp" },
+    "level=3": { "model": "marshlamp:block/marsh_lamp" },
+    "level=4": { "model": "marshlamp:block/marsh_lamp" },
+    "level=5": { "model": "marshlamp:block/marsh_lamp" },
+    "level=6": { "model": "marshlamp:block/marsh_lamp" },
+    "level=7": { "model": "marshlamp:block/marsh_lamp" },
+    "level=8": { "model": "marshlamp:block/marsh_lamp" },
+    "level=9": { "model": "marshlamp:block/marsh_lamp" },
+    "level=10": { "model": "marshlamp:block/marsh_lamp" },
+    "level=11": { "model": "marshlamp:block/marsh_lamp" },
+    "level=12": { "model": "marshlamp:block/marsh_lamp" },
+    "level=13": { "model": "marshlamp:block/marsh_lamp" },
+    "level=14": { "model": "marshlamp:block/marsh_lamp" },
+    "level=15": { "model": "marshlamp:block/marsh_lamp" }
+  }
+}

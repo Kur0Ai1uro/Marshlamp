@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GG",
+    "GS",
+    " S"
+  ],
+  "key": {
+    "G": { "item": "marshlamp:marsh_ingot" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "id": "marshlamp:marsh_axe",
+    "count": 1
+  }
+}

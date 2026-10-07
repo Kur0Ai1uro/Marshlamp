@@ -1,0 +1,22 @@
+{
+  "parent": "marshlamp:root",
+  "display": {
+    "icon": { "id": "marshlamp:bottled_wisp" },
+    "title": { "translate": "advancements.marshlamp.catch_wisp.title" },
+    "description": { "translate": "advancements.marshlamp.catch_wisp.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_wisp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "marshlamp:bottled_wisp" }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_wisp"]]
+}

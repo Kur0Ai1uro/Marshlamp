@@ -1,0 +1,17 @@
+{
+  "parent": "marshlamp:catch_wisp",
+  "display": {
+    "icon": { "id": "marshlamp:marsh_lamp" },
+    "title": { "translate": "advancements.marshlamp.light_lamp.title" },
+    "description": { "translate": "advancements.marshlamp.light_lamp.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "lit": {
+      "trigger": "marshlamp:lamp_lit"
+    }
+  },
+  "requirements": [["lit"]]
+}

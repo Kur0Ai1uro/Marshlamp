@@ -1,0 +1,32 @@
+{
+  "parent": "marshlamp:root",
+  "display": {
+    "icon": { "id": "marshlamp:marsh_pickaxe" },
+    "title": { "translate": "advancements.marshlamp.craft_tool.title" },
+    "description": { "translate": "advancements.marshlamp.craft_tool.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "marshlamp:marsh_hoe" }]
+      }
+    },
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "marshlamp:marsh_pickaxe" }]
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": "marshlamp:marsh_axe" }]
+      }
+    }
+  },
+  "requirements": [["hoe"], ["pickaxe"], ["axe"]]
+}

@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": { "id": "marshlamp:marsh_lamp" },
+    "title": { "translate": "advancements.marshlamp.root.title" },
+    "description": { "translate": "advancements.marshlamp.root.description" },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/moss_block.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

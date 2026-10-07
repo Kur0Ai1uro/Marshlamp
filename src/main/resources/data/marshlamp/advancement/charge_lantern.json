@@ -1,0 +1,17 @@
+{
+  "parent": "marshlamp:light_lamp",
+  "display": {
+    "icon": { "id": "marshlamp:marsh_lantern" },
+    "title": { "translate": "advancements.marshlamp.charge_lantern.title" },
+    "description": { "translate": "advancements.marshlamp.charge_lantern.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "charged": {
+      "trigger": "marshlamp:lantern_charged"
+    }
+  },
+  "requirements": [["charged"]]
+}
